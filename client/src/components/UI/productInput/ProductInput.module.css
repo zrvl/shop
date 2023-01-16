@@ -1,0 +1,11 @@
+.product__input {
+  background: #fff;
+  border: 1px solid #F2ECFF;
+  box-shadow: 5px 12px 24px rgba(0, 72, 217, 0.1);
+  color: #000;
+  width: 400px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  border: none;
+}
