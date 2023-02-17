@@ -1,0 +1,45 @@
+.login {
+  width: 400px;
+  border-radius: 5px;
+  background-color: #f7f7f8;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 12345;
+  opacity: 1;
+  &__top {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px 10px 30px;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+  }
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    &:hover {
+      border-bottom: 2px solid #ff9335;
+    }
+  }
+  &__close {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    right: -45px;
+    top: 12px;
+  }
+  &__icon {
+    width: 35px;
+    height: 35px;
+  }
+}

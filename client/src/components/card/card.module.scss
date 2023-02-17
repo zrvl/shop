@@ -1,0 +1,85 @@
+.top {
+  max-width: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  &__wrapper {
+    margin: 0 auto 10px;
+    max-width: 280px;
+    max-height: 280px;
+  }
+  &__img {
+    width: 245px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+}
+
+.info {
+  &__sticker {
+    height: 25px;
+    margin-bottom: 5px;
+    position: relative;
+    &_text {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      padding: 2px 5px;
+      border-radius: 3px;
+      background-color: rgb(35, 185, 35);
+      color: #fff;
+    }
+  }
+  &__title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  &__reviews {
+    margin-bottom: 5px;
+  }
+}
+
+.price {
+  margin-bottom: 30px;
+  &__title {
+    color: #9e9e9e;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  &__price {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+  &__text {
+    color: #9e9e9e;
+  }
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  &__btn {
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9335;
+    padding: 7px 40px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  &__actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__action {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  &__action + .bottom__action {
+    margin-left: 15px;
+  }
+}

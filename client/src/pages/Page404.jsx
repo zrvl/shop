@@ -1,12 +1,12 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Page404 = () => {
   const navigate = useNavigate();
 
   const navigation = () => {
-    navigate('/');
-  }
+    navigate("/");
+  };
 
   return (
     <div className="page">
@@ -15,14 +15,17 @@ const Page404 = () => {
           <div className="page__error-num">404</div>
           <div className="page__error-text">
             <p>
-              SORRY!<br/> The Page You're Looking For Was Not Found
+              SORRY!
+              <br /> The Page You're Looking For Was Not Found Page
             </p>
-            <button className="page__error-btn" onClick={navigation}>Go Back</button>
+            <button className="page__error-btn" onClick={navigation}>
+              Go Back
+            </button>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Page404
+export default Page404;

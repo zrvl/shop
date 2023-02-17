@@ -1,0 +1,23 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  padding-top: 20px;
+}
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+.body {
+  height: 100%;
+  padding: 30px 20px 30px 20px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 800;
+}
+.text {
+  font-size: 18px;
+  font-weight: 400;
+}

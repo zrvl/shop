@@ -1,0 +1,28 @@
+.category {
+  padding-top: 80px;
+  &__btns {
+    margin-bottom: 20px;
+  }
+  &__btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #a7a7a7;
+    text-transform: capitalize;
+    &-active {
+      background-color: #ff9335;
+      color: #fff;
+    }
+  }
+  &__btn + .category__btn {
+    margin-left: 15px;
+  }
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px 0px;
+    justify-items: center;
+  }
+}
